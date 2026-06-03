@@ -1,6 +1,15 @@
+D:\-AutoQAPro-HCL-Hackathon\src\test\java\base\BasePage.java
 D:\-AutoQAPro-HCL-Hackathon\src\test\java\base\BaseTest.java
+D:\-AutoQAPro-HCL-Hackathon\src\test\java\pages\CartPage.java
 D:\-AutoQAPro-HCL-Hackathon\src\test\java\pages\HomePage.java
+D:\-AutoQAPro-HCL-Hackathon\src\test\java\pages\LoginPage.java
+D:\-AutoQAPro-HCL-Hackathon\src\test\java\pages\ProductPage.java
+D:\-AutoQAPro-HCL-Hackathon\src\test\java\tests\CartTest.java
 D:\-AutoQAPro-HCL-Hackathon\src\test\java\tests\ConfigTest.java
+D:\-AutoQAPro-HCL-Hackathon\src\test\java\tests\DataDrivenLoginTest.java
 D:\-AutoQAPro-HCL-Hackathon\src\test\java\tests\HomePageTest.java
 D:\-AutoQAPro-HCL-Hackathon\src\test\java\tests\LaunchBrowserTest.java
+D:\-AutoQAPro-HCL-Hackathon\src\test\java\tests\LoginTest.java
+D:\-AutoQAPro-HCL-Hackathon\src\test\java\tests\ProductTest.java
 D:\-AutoQAPro-HCL-Hackathon\src\test\java\utils\ConfigReader.java
+D:\-AutoQAPro-HCL-Hackathon\src\test\java\utils\LoginDataProvider.java
