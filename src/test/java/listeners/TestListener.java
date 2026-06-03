@@ -4,25 +4,41 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+
+import utils.ExtentManager;
+
 public class TestListener implements ITestListener {
+
+    private ExtentReports extent =
+            ExtentManager.getInstance();
+
+    private ExtentTest test;
 
     @Override
     public void onTestStart(ITestResult result) {
-        System.out.println("STARTED: " + result.getName());
+
+        test = extent.createTest(
+                result.getName());
     }
+    
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        System.out.println("PASSED: " + result.getName());
+
+        test.pass("Test Passed");
     }
 
     @Override
     public void onTestFailure(ITestResult result) {
-        System.out.println("FAILED: " + result.getName());
+
+        test.fail(result.getThrowable());
     }
 
     @Override
     public void onFinish(ITestContext context) {
-        System.out.println("Execution Completed");
+
+        extent.flush();
     }
 }

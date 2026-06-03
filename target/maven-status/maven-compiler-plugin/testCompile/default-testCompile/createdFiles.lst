@@ -1,6 +1,7 @@
 tests\CartTest.class
 pages\ProductPage.class
 pages\LoginPage.class
+listeners\TestListener.class
 pages\CartPage.class
 pages\HomePage.class
 utils\ConfigReader.class

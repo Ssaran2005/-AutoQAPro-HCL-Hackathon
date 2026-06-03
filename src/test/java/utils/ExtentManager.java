@@ -10,10 +10,10 @@ public class ExtentManager {
     public static ExtentReports getInstance() {
 
         if (extent == null) {
-
+System.out.println("CREATING EXTENT REPORT");
             ExtentSparkReporter reporter =
-                    new ExtentSparkReporter(
-                            "reports/ExtentReport.html");
+        new ExtentSparkReporter(
+                "ExtentReport.html");
 
             extent = new ExtentReports();
 
