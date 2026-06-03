@@ -1,1 +1,16 @@
+tests\CartTest.class
+pages\ProductPage.class
+pages\LoginPage.class
+pages\CartPage.class
+pages\HomePage.class
 utils\ConfigReader.class
+tests\LoginTest.class
+tests\ProductTest.class
+tests\ConfigTest.class
+base\BasePage.class
+base\BaseTest.class
+tests\DataDrivenLoginTest.class
+utils\LoginDataProvider.class
+tests\HomePageTest.class
+tests\LaunchBrowserTest.class
+utils\ExtentManager.class
